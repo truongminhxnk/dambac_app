@@ -184,7 +184,7 @@
             reader.onload = function (e) {
                 const content = e.target.result.split('\n');
 
-                fetch('http://127.0.0.1:5000/process_srt', {
+                fetch('https://dambac-app.onrender.com/process_srt', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
